@@ -45,13 +45,13 @@ namespace Forces.Application.Features.Inventory.Commands.AddEdit
             if (request.Id == 0)
             {
                 var ExistInventory = await _unitOfWork.Repository<Models.Inventory>().Entities.FirstOrDefaultAsync(
-                    (x => (x.Name == request.Name && x.BaseSectionId == request.BaseSectionId)
-                    || (x.Name == request.Name && x.HouseId == request.HouseId)
-                    || (x.Name == request.Name && x.RoomId == request.RoomId))
+                    (x => (x.BaseSectionId == request.BaseSectionId)
+                    || (x.HouseId == request.HouseId)
+                    || (x.RoomId == request.RoomId))
                     );
                 if (ExistInventory != null)
                 {
-                    return await Result<int>.FailAsync(_localizer["This Inventory Name Is Already Exist!"]);
+                    return await Result<int>.FailAsync(_localizer["There's An Inventory Already Exist In This Base!"]);
                 }
                 else
                 {

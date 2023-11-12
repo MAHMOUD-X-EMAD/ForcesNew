@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "ZPnCexwc8Uq+1UQVINMf0KGsBfdEDMGZxnZm3gav3BU=",
+  "Hash": "6OHYVD87d2HNlH6p7KWsFRhAVfHvnWlhCipfwvk1SZQ=",
   "Source": "Forces.Server",
   "BasePath": "_content/Forces.Server",
   "Mode": "Default",
@@ -4735,7 +4735,7 @@
       "AssetTraitValue": "runtime",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\20106\\.nuget\\packages\\harfbuzzsharp\\2.8.2.3\\lib\\net6.0\\HarfBuzzSharp.dll"
+      "OriginalItemSpec": "C:\\Users\\20106\\.nuget\\packages\\harfbuzzsharp\\7.3.0\\lib\\net6.0\\HarfBuzzSharp.dll"
     },
     {
       "Identity": "C:\\Users\\20106\\Downloads\\INV\\INV\\Forces\\Forces\\src\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\he\\Humanizer.resources.dll",
@@ -7268,7 +7268,7 @@
       "AssetTraitValue": "runtime",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\20106\\.nuget\\packages\\skiasharp\\2.88.3\\lib\\net6.0\\SkiaSharp.dll"
+      "OriginalItemSpec": "C:\\Users\\20106\\.nuget\\packages\\skiasharp\\2.88.6\\lib\\net6.0\\SkiaSharp.dll"
     },
     {
       "Identity": "C:\\Users\\20106\\Downloads\\INV\\INV\\Forces\\Forces\\src\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\SkiaSharp.HarfBuzz.dll",
@@ -7285,7 +7285,7 @@
       "AssetTraitValue": "runtime",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\20106\\.nuget\\packages\\skiasharp.harfbuzz\\2.88.3\\lib\\net6.0\\SkiaSharp.HarfBuzz.dll"
+      "OriginalItemSpec": "C:\\Users\\20106\\.nuget\\packages\\skiasharp.harfbuzz\\2.88.6\\lib\\net6.0\\SkiaSharp.HarfBuzz.dll"
     },
     {
       "Identity": "C:\\Users\\20106\\Downloads\\INV\\INV\\Forces\\Forces\\src\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\SkiaSharp.Views.Blazor.dll",
@@ -11147,23 +11147,6 @@
       "OriginalItemSpec": "C:\\Users\\20106\\Downloads\\INV\\INV\\Forces\\Forces\\src\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\System.ValueTuple.dll"
     },
     {
-      "Identity": "C:\\Users\\20106\\Downloads\\INV\\INV\\Forces\\Forces\\src\\Client\\obj\\Debug\\net6.0\\build-gz\\1cSFcBnk.gz",
-      "SourceId": "Forces.Client",
-      "SourceType": "Project",
-      "ContentRoot": "C:\\Users\\20106\\Downloads\\INV\\INV\\Forces\\Forces\\src\\Client\\bin\\Debug\\net6.0\\wwwroot\\",
-      "BasePath": "/",
-      "RelativePath": "_framework/SkiaSharp.dll.gz",
-      "AssetKind": "Build",
-      "AssetMode": "All",
-      "AssetRole": "Alternative",
-      "RelatedAsset": "C:\\Users\\20106\\Downloads\\INV\\INV\\Forces\\Forces\\src\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\SkiaSharp.dll",
-      "AssetTraitName": "Content-Encoding",
-      "AssetTraitValue": "gzip",
-      "CopyToOutputDirectory": "PreserveNewest",
-      "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\20106\\Downloads\\INV\\INV\\Forces\\Forces\\src\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\SkiaSharp.dll"
-    },
-    {
       "Identity": "C:\\Users\\20106\\Downloads\\INV\\INV\\Forces\\Forces\\src\\Client\\obj\\Debug\\net6.0\\build-gz\\1irlbgTV.gz",
       "SourceId": "Forces.Client",
       "SourceType": "Project",
@@ -12558,6 +12541,23 @@
       "OriginalItemSpec": "C:\\Users\\20106\\Downloads\\INV\\INV\\Forces\\Forces\\src\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\System.Net.Security.dll"
     },
     {
+      "Identity": "C:\\Users\\20106\\Downloads\\INV\\INV\\Forces\\Forces\\src\\Client\\obj\\Debug\\net6.0\\build-gz\\BARrVNEn.gz",
+      "SourceId": "Forces.Client",
+      "SourceType": "Project",
+      "ContentRoot": "C:\\Users\\20106\\Downloads\\INV\\INV\\Forces\\Forces\\src\\Client\\bin\\Debug\\net6.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/HarfBuzzSharp.dll.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "RelatedAsset": "C:\\Users\\20106\\Downloads\\INV\\INV\\Forces\\Forces\\src\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\HarfBuzzSharp.dll",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\20106\\Downloads\\INV\\INV\\Forces\\Forces\\src\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\HarfBuzzSharp.dll"
+    },
+    {
       "Identity": "C:\\Users\\20106\\Downloads\\INV\\INV\\Forces\\Forces\\src\\Client\\obj\\Debug\\net6.0\\build-gz\\bFbPcHQ+.gz",
       "SourceId": "Forces.Client",
       "SourceType": "Project",
@@ -12879,23 +12879,6 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\20106\\Downloads\\INV\\INV\\Forces\\Forces\\src\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\zh-TW\\Hangfire.Core.resources.dll"
-    },
-    {
-      "Identity": "C:\\Users\\20106\\Downloads\\INV\\INV\\Forces\\Forces\\src\\Client\\obj\\Debug\\net6.0\\build-gz\\D+3sPCUm.gz",
-      "SourceId": "Forces.Client",
-      "SourceType": "Project",
-      "ContentRoot": "C:\\Users\\20106\\Downloads\\INV\\INV\\Forces\\Forces\\src\\Client\\bin\\Debug\\net6.0\\wwwroot\\",
-      "BasePath": "/",
-      "RelativePath": "_framework/HarfBuzzSharp.dll.gz",
-      "AssetKind": "Build",
-      "AssetMode": "All",
-      "AssetRole": "Alternative",
-      "RelatedAsset": "C:\\Users\\20106\\Downloads\\INV\\INV\\Forces\\Forces\\src\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\HarfBuzzSharp.dll",
-      "AssetTraitName": "Content-Encoding",
-      "AssetTraitValue": "gzip",
-      "CopyToOutputDirectory": "PreserveNewest",
-      "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\20106\\Downloads\\INV\\INV\\Forces\\Forces\\src\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\HarfBuzzSharp.dll"
     },
     {
       "Identity": "C:\\Users\\20106\\Downloads\\INV\\INV\\Forces\\Forces\\src\\Client\\obj\\Debug\\net6.0\\build-gz\\d+cS6Qal.gz",
@@ -13355,6 +13338,23 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\20106\\Downloads\\INV\\INV\\Forces\\Forces\\src\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\hu\\Humanizer.resources.dll"
+    },
+    {
+      "Identity": "C:\\Users\\20106\\Downloads\\INV\\INV\\Forces\\Forces\\src\\Client\\obj\\Debug\\net6.0\\build-gz\\EyrXIdPb.gz",
+      "SourceId": "Forces.Client",
+      "SourceType": "Project",
+      "ContentRoot": "C:\\Users\\20106\\Downloads\\INV\\INV\\Forces\\Forces\\src\\Client\\bin\\Debug\\net6.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/SkiaSharp.dll.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "RelatedAsset": "C:\\Users\\20106\\Downloads\\INV\\INV\\Forces\\Forces\\src\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\SkiaSharp.dll",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\20106\\Downloads\\INV\\INV\\Forces\\Forces\\src\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\SkiaSharp.dll"
     },
     {
       "Identity": "C:\\Users\\20106\\Downloads\\INV\\INV\\Forces\\Forces\\src\\Client\\obj\\Debug\\net6.0\\build-gz\\ezOPYq77.gz",
@@ -16859,23 +16859,6 @@
       "OriginalItemSpec": "C:\\Users\\20106\\Downloads\\INV\\INV\\Forces\\Forces\\src\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\MudBlazor.dll"
     },
     {
-      "Identity": "C:\\Users\\20106\\Downloads\\INV\\INV\\Forces\\Forces\\src\\Client\\obj\\Debug\\net6.0\\build-gz\\UfWUpI20.gz",
-      "SourceId": "Forces.Client",
-      "SourceType": "Project",
-      "ContentRoot": "C:\\Users\\20106\\Downloads\\INV\\INV\\Forces\\Forces\\src\\Client\\bin\\Debug\\net6.0\\wwwroot\\",
-      "BasePath": "/",
-      "RelativePath": "_framework/SkiaSharp.HarfBuzz.dll.gz",
-      "AssetKind": "Build",
-      "AssetMode": "All",
-      "AssetRole": "Alternative",
-      "RelatedAsset": "C:\\Users\\20106\\Downloads\\INV\\INV\\Forces\\Forces\\src\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\SkiaSharp.HarfBuzz.dll",
-      "AssetTraitName": "Content-Encoding",
-      "AssetTraitValue": "gzip",
-      "CopyToOutputDirectory": "PreserveNewest",
-      "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\20106\\Downloads\\INV\\INV\\Forces\\Forces\\src\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\SkiaSharp.HarfBuzz.dll"
-    },
-    {
       "Identity": "C:\\Users\\20106\\Downloads\\INV\\INV\\Forces\\Forces\\src\\Client\\obj\\Debug\\net6.0\\build-gz\\uNnT9oti.gz",
       "SourceId": "Forces.Client",
       "SourceType": "Project",
@@ -17027,6 +17010,23 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\20106\\Downloads\\INV\\INV\\Forces\\Forces\\src\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\System.IO.Compression.ZipFile.dll"
+    },
+    {
+      "Identity": "C:\\Users\\20106\\Downloads\\INV\\INV\\Forces\\Forces\\src\\Client\\obj\\Debug\\net6.0\\build-gz\\VGwdnPgt.gz",
+      "SourceId": "Forces.Client",
+      "SourceType": "Project",
+      "ContentRoot": "C:\\Users\\20106\\Downloads\\INV\\INV\\Forces\\Forces\\src\\Client\\bin\\Debug\\net6.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/SkiaSharp.HarfBuzz.dll.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "RelatedAsset": "C:\\Users\\20106\\Downloads\\INV\\INV\\Forces\\Forces\\src\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\SkiaSharp.HarfBuzz.dll",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\20106\\Downloads\\INV\\INV\\Forces\\Forces\\src\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\SkiaSharp.HarfBuzz.dll"
     },
     {
       "Identity": "C:\\Users\\20106\\Downloads\\INV\\INV\\Forces\\Forces\\src\\Client\\obj\\Debug\\net6.0\\build-gz\\vH+V4rYp.gz",

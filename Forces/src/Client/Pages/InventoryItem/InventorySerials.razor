@@ -1,0 +1,52 @@
+﻿@using Forces.Application.Enums;
+@using Forces.Application.Extensions;
+@using Forces.Application.Features.Inventory.Queries.GetAll;
+@inject Microsoft.Extensions.Localization.IStringLocalizer<InventorySerials> _localizer
+@inject IJSRuntime JSRuntime
+
+@code {
+
+    private async Task LogToConsole()
+    {
+    }
+}
+<EditForm Model="@_SerialsList" OnValidSubmit="SaveAsync">
+    <FluentValidationValidator @ref="_fluentValidationValidator" />
+    <MudDialog>
+        <TitleContent>
+            @{
+                
+            }
+        </TitleContent>
+        <DialogContent>
+            <MudGrid>
+                
+               
+                <MudItem xs="12" md="6">
+                    <MudGrid>
+                        <MudItem xs="12" md="6">
+                            
+                                @if (_InventoryList != null)
+                                {
+                                    @for (int i = 0; i <count; i++)
+                                    {
+                                    <MudTextField @bind-Value="@_InventoryList[i].Name"></MudTextField>
+                                    }
+                                }
+                            
+
+                        </MudItem>
+
+                    </MudGrid>
+                </MudItem>
+
+               
+            </MudGrid>
+
+        </DialogContent>
+        <DialogActions>
+            <MudButton DisableElevation Variant="Variant.Filled" OnClick="Cancel">@_localizer["Cancel"]</MudButton>
+            
+        </DialogActions>
+    </MudDialog>
+</EditForm>

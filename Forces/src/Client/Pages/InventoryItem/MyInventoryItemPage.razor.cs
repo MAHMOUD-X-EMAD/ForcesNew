@@ -15,6 +15,7 @@ using Forces.Shared.Constants.Permission;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Components;
 using Microsoft.AspNetCore.SignalR.Client;
+using Microsoft.Extensions.Options;
 using MudBlazor;
 using System.Security.Claims;
 
@@ -128,6 +129,16 @@ namespace Forces.Client.Pages.InventoryItem
                         Id = _InventoryItem.Id,
                         ItemName = _InventoryItem.ItemName,
                         ItemCode = _InventoryItem.ItemCode,
+                        DateOfEnter = _InventoryItem?.DateOfEnter,
+                        EndOfServiceDate = _InventoryItem.EndOfServiceDate,
+                        ItemArName =_InventoryItem.ItemArName,
+                        ItemClass = _InventoryItem.ItemClass,
+                        ItemNsn = _InventoryItem.ItemNsn,
+                        MeasureUnitId = _InventoryItem.MeasureUnitId,
+                        ItemDescription = _InventoryItem.ItemDescription,
+                        SerialNumber = _InventoryItem.SerialNumber,
+                        FirstUseDate = _InventoryItem.FirstUseDate,
+                        InventoryId = _InventoryItem.InventoryId,
                     });
                 }
             }
@@ -139,6 +150,8 @@ namespace Forces.Client.Pages.InventoryItem
                 await Reset();
             }
         }
+        
+
         private async Task Delete(int id)
         {
             string deleteContent = _localizer["Are You Sure To Delete This Base?"];
